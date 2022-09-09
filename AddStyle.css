@@ -118,10 +118,10 @@ div.button-container {
   transition: 0.3s;
 }
 
-#resultButton:hover {
+#resultButton:hover:enabled {
   transform: scale(1.1);
 }
 
-#resultButton:active {
+#resultButton:active:enabled {
   transform: scale(0.9);
 }
