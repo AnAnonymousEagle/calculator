@@ -2,6 +2,7 @@ let resultButton = document.getElementById("resultButton");
 resultButton.disabled = "disabled";
 resultButton.style.opacity = "0.5";
 resultButton.style.cursor = "not-allowed";
+resultButton.style.userSelect = "none";
 
 
 function showButton() {
